@@ -20,6 +20,12 @@ class StudentCreateView(CreateView):
     success_url='/studentcreate/'  
 
 
+
+
+
+
+
+
 class CreateTemplate(TemplateView):
     template_name='studentcreate.html'
 
